@@ -1,0 +1,217 @@
+
+
+/*******************************
+************HEADER**************
+*******************************/
+
+
+.nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    z-index: 10;
+    min-height: 100px;
+    max-width: 100%;
+    width: 100%;
+    &_wrap{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 15px 0;
+    }
+    &_logo{
+        padding: 0 25px 0 0;
+    }
+    &_wrap_menu{
+        font-family: "Roboto", sans-serif;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-grow: 1;
+    }
+    &_menu{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 10px;
+        a{
+            padding: 25px 50px;
+            display: block;
+            font-size: 18px;
+            line-height: 19px;
+            font-weight: 500;
+            color: #ffffff;
+            text-decoration: none;
+            border-bottom: 2px solid rgba(255, 255, 255, 0);
+            &:hover{
+                border-bottom:2px solid rgba(255, 255, 255, 1);
+            }
+        }
+    }
+    &_aside{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &_button{
+        padding: 0 40px 0 5px;
+        a{
+            padding: 23px 45px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 16px;
+            line-height: 16px;
+            font-weight: 500;
+            border: 3px solid #FFFFFF;
+            box-sizing: border-box;
+            box-shadow: 0px 0px 23px rgba(24, 255, 255, 0.44);
+            color: #ffffff;
+            background: #0066CC;
+            transition: .4s;
+            display: block;
+            &:hover{
+                background: #ffffff;
+                color: #0066CC;
+            }
+            &:focus, &:active{
+                background: #9aafd0;
+                box-shadow: 0px 0px 23px rgba(24, 255, 255, 0.44);
+                border-color: #9aafd0;
+                color: #0066CC;
+            } 
+        }
+    }
+    &_login{
+        font-family: 'Roboto', sans-serif;    
+        color: #ffffff;
+        span{
+            a{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #ffffff;
+                text-decoration: none;
+                padding: 0 6px;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+
+
+/*******************************
+************MENU_BURGER*********
+*******************************/
+
+
+.burger{
+    position: relative;
+    height: 44px;
+    width: 50px;
+    padding: 2px 0px 2px 6px;
+    display: none;
+    &_button{
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+    &_line{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+     }
+     &_line::after{
+        content: '';
+        top: 12px;
+     }
+     &_line::before{
+        content: '';
+        top: -12px;
+     }
+
+    &_line,
+    &_line::before,
+    &_line::after{
+        width: 100%;
+        height: 5px;
+        background: white;
+        position: absolute;
+    }
+    &_button--active .burger_line{
+		background-color: transparent;
+    }
+    &_button--active .burger_line::before{
+		transform: rotate(45deg);
+		top: 0;
+    }
+    &_button--active .burger_line::after{
+		transform: rotate(-45deg);
+		top: 0;
+	}
+}
+
+.burger_menu{
+    background-color: #0066CC;
+    display: none;
+    &_wrap{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0 50px 0;
+        a{
+            padding: 25px 0;
+            max-width: 100%;
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+            line-height: 19px;
+            font-weight: 500;
+            color: #ffffff;
+            text-decoration: none;
+            border-bottom: 2px solid rgba(255, 255, 255, 0);
+            &:hover{
+                border-bottom:2px solid rgba(255, 255, 255, 1);
+            }
+        }
+    }
+    &--button{
+        text-align: center;
+        display: none;
+        padding-top: 20px;
+        a{
+            padding: 23px 15px;
+            max-width: 270px;
+            width: 100%;
+            border-radius: 50px;
+            text-decoration: none;
+            background: #0066CC;
+            font-size: 16px;
+            line-height: 16px;
+            font-weight: 500;
+            border: 3px solid #FFFFFF;
+            box-sizing: border-box;
+            box-shadow: 0px 0px 23px rgba(24, 255, 255, 0.44);
+            color: #ffffff;
+            transition: .4s;
+            display: inline-block;
+            &:hover{
+                background-color: #ffffff;
+                color: #0066CC;
+            }
+            &:focus, &:active{
+                background: #9aafd0;
+                box-shadow: 0px 0px 23px rgba(24, 255, 255, 0.44);
+                border-color: #9aafd0;
+                color: #0066CC;
+            } 
+        }
+    }
+}
+

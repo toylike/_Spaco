@@ -1,0 +1,34 @@
+- const mainBanner = LANG.banner;
+- const mainArticle = LANG.article;
+- const mainCard = LANG.cards;
+
+main
+    section.banner
+        img.banner_logo(src=mainBanner.banner_logo, alt="")
+        img.banner_logo_ipad(src=mainBanner.banner_logo_ipad, alt="")
+        img.banner_logo_mobile(src=mainBanner.banner_logo_mobile, alt="")
+        div.box
+            div.banner_content
+                div.banner_title
+                    h2= mainBanner.banner_title       
+                div.banner_text
+                    h4= mainBanner.banner_h4
+                    p= mainBanner.banner_text
+                div.banner_button
+                    a(href="#")= mainBanner.banner_button
+                    
+    section.article
+        div.container
+            div.article_title
+                h1= mainArticle.h1
+            div.article_cards
+                each card in mainCard
+                    div.article_card-wrap
+                        div.article_card.card
+                            div.card_img
+                                img(src=card.src_img_card)
+                            div.card_text
+                                a(href="#")= card.title_card
+                                p= card.text_card
+            div.article_button
+                a(href="#")= mainArticle.footer_button

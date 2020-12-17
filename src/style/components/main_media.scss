@@ -1,0 +1,259 @@
+/*******************************
+************MEDIA***************
+*******************************/
+
+
+@media(max-width: 1490px){
+    .burger{
+        display: block;
+    }
+    .nav{
+        &_aside{
+            margin-left: auto;
+        }
+        &_menu{
+            display: none;
+        }
+        &_login{
+            display: none;
+        }
+    }
+}
+
+
+@media(max-width: 1320px){
+    .of_banner{
+        &_wrap-arrow{
+            display: none;
+        }
+    }
+}
+
+
+@media(max-width: 1260px){
+    .banner{
+        &_logo{
+            width: 1050px;
+            margin-top: -100px;
+            margin-left: 260px;
+        }
+    }
+    .container{
+        max-width: 766px;
+        width: 100%;
+        padding: 0 8px;
+    }
+    .article{
+        padding-top: 20px;
+        &_title{
+            max-width: 520px;
+            width: 100%;
+            margin: 0 auto 60px;
+            h1{
+                font-size: 60px;
+                line-height: 60px;
+            }
+        }
+    }
+    .article, .of_banner{
+        &_card{
+            width: 335px;
+        }
+        &_card-wrap{
+            padding: 0 20px;
+        }
+        &_cards{
+            justify-content: center;
+        }
+        &_article--title{
+            max-width: 520px;
+            width: 100%;
+            margin: 0 auto 60px;
+            h1{
+                font-size: 60px;
+                line-height: 60px;
+            }
+        }
+    }
+    .footer{
+        &_nav{
+           width: 100%; 
+           flex-wrap: wrap;
+           margin: 0 auto;
+        }
+        &_col{
+            max-width: 50%;
+            width: 100%;
+            padding: 0 20px;
+        }
+    }
+
+}
+@media(max-width: 991px){
+    .banner{
+        &_logo{
+            display: none;
+        }
+        &_logo_ipad{
+            display: block;
+        }
+        &_content{
+            margin-top: 350px;
+        }
+    }
+    .of_banner{
+        &_logo{
+            display: none;
+        }
+        &_logo_ipad{
+            display: block;
+        }
+        &_content{
+            margin-top: 350px;
+        }
+        .of_card{
+            padding: 90px 50px;
+        }
+    }       
+}
+
+@media(max-width: 767px){
+    .container{
+        max-width: 320px;
+        width: 100%;
+        padding: 0 15px;
+    }
+    .box{
+        padding: 0 15px;
+    }
+    .article{
+        &_title{
+            max-width: 100%;
+            width: 100%;
+            padding: 0 15px;
+            h1{
+                font-size: 35px;
+                line-height: 35px;
+            }
+        }
+    }
+    .article, .of_banner{
+        &_cards{
+            flex-direction: column;
+            align-items: center;
+        }
+        &_card{
+            max-width: 100%;
+            width: 100%;
+            padding: 40px 15px 60px 15px;
+        }
+        &_card-wrap{
+            padding: 0;
+            margin-bottom: 30px;
+        }
+        &_article--title{
+            max-width: 100%;
+            width: 100%;
+            padding: 0 15px;
+            h1{
+                font-size: 35px;
+                line-height: 35px;
+            }
+        }
+    }
+    .banner, .of_banner{
+        &_title{
+            h2{
+                font-size: 35px;
+                line-height: 35px;
+            }
+        }
+        &_text{
+            font-size: 25px;
+            line-height: 30px;
+        }
+        &_content{
+            max-width: 400px;
+            width: 100%;
+        }
+    } 
+
+    .footer{
+        &_col{
+            max-width: 100%;
+            width: 100%;
+            padding: 0;
+        }
+    }
+    .nav{
+        min-height: 60px;
+        background: rgba(4, 28, 99, 0.8);
+        &_button{
+            display: none;
+        }
+        &_logo{
+            img{
+                max-width: 140px;
+                width: 100%;
+            }
+        }
+    }
+    .burger_menu{
+        &--button{
+            display: block;
+        }
+    }
+    .burger{
+        width: 35px;
+        height: 28px; 
+        &_line, &_line::after, &_line::before{
+            height: 4px;    
+        }
+        &_line::after{
+            top: 8px;
+        }
+        &_line::before{
+            top: -8px;
+        }
+    }
+
+    .of_banner{
+        &_logo_mobile{
+            display: block;
+        }
+        &_logo_ipad{
+            display: none;
+        }
+        &_content{
+            margin-top: 250px;
+        }
+        &_methods{
+            flex-direction: column;
+            align-items: center;
+        }
+        &_method{
+            margin-bottom: 30px;
+        }
+        .of_card{
+            padding: 80px 30px;
+        }
+        &_article{
+            padding-top: 50px;
+        }
+    }
+    
+}
+
+@media(max-width: 500px){
+    .banner{
+        &_logo_mobile{
+            display: block;
+        }
+        &_logo_ipad{
+            display: none;
+        }
+        &_content{
+            margin-top: 250px;
+        }
+    }
+}

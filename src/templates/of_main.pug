@@ -1,0 +1,37 @@
+- const ofBanner = LANG.of_banner;
+
+main
+    section.of_banner
+        img.of_banner_logo(src="img/bg_logo_ofSpaco.png", alt="")
+        img.of_banner_logo_ipad(src="img/bg_logo_ofSpaco-ipad.png", alt="")
+        img.of_banner_logo_mobile(src="img/bg_logo_ofSpaco-mobile.png", alt="")
+        div.box
+            div.of_banner_content
+                div.of_banner_title
+                    h2= ofBanner.banner_title   
+                div.of_banner_text
+                    p= ofBanner.banner_text
+            div.of_banner_methods
+                div.of_banner_method
+                    a(href="#")
+                        img(src="img/dl_window.png", alt="")
+                div.of_banner_method
+                    a(href="#")
+                        img(src="img/dl_google.png", alt="")
+                div.of_banner_method
+                    a(href="#")
+                        img(src="img/dl_appStore.png", alt="")
+        div.of_banner_article
+            div.container
+                div.of_banner_article--title
+                    h1= ofBanner.of_cards_title
+                div.of_banner_cards
+                    each of_card in ofBanner.of_cards
+                        div.of_banner_card-wrap
+                            div.of_banner_card.of_card
+                                div.of_card_img
+                                    img(src=of_card.of_img_card)
+                                div.of_card_text
+                                    a(href="#")= of_card.of_title_card
+                        div.of_banner_wrap-arrow
+                            img.of_banner_arrow(src="img/of_card_arrow.png", alt="")

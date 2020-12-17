@@ -1,0 +1,29 @@
+@import "libs/_media";
+@import "libs/_funcs";
+@import "libs/_mixins";
+@import "libs/_reset";
+
+//uncomment it if sprites used
+@import "libs/sprite";
+@import "partials/variables";
+
+
+@import "components/header";
+@import "components/main_banner";
+@import "components/footer";
+@import "components/main_media";
+
+
+//uncomment it if SVGSprite generator in sprite mode
+// @import "partials/sprite-svg"
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+@import "libs/slick-theme";
+@import "partials/reviews";
+
+@import "partials/font-icons";
+
+
+@import "partials/typography";
+@import "partials/common";
+
+

@@ -1,0 +1,20 @@
+- const reviewsData = LANG.reviews;
+
+div.reviews
+	div.reviews__container
+		div.reviews__content
+			h2.reviews__title= reviewsData.title
+			div#reviews_slider1_js.reviews-slider.reviews-slider1
+				each val in reviewsData.slider1	
+					div.reviews-slider1__slide
+						h3.reviews-slider1__title= val.slider1_title
+						div.reviews-slider1__text= val.slider1_text
+			div.reviews-slider-wrap
+				div#reviews_current_slide_js.reviews-current-slide
+					div.reviews-current-slide__img-block
+						img#reviews_current_slide_img_js(src='img/review1.png')
+				div#reviews_slider2_js.reviews-slider.reviews-slider2
+					each val, i in reviewsData.slider1
+						div.reviews-slider2__slide
+							div.reviews-slider2__img-block
+								img(src=`img/review${i+1}.png`, alt="")

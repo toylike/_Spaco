@@ -1,0 +1,31 @@
+- const headerNav = LANG.nav;
+
+header
+    section.nav
+        div.box
+            div.nav_wrap
+                div.nav_logo
+                    img(src=headerNav.nav_logo)
+                div.nav_wrap_menu
+                    div.nav_menu
+                        each nav_link in headerNav.nav_links
+                            a(href="#")= nav_link.nav_link
+                    div.nav_aside
+                        div.nav_button
+                            a(href="#")= headerNav.nav_button
+                        div.nav_login
+                            span
+                                a(href="#")= headerNav.nav_registration
+                                span |
+                                a(href="#")= headerNav.nav_entry
+                div.nav_burger.burger
+                    a.burger_button
+                        span.burger_line
+        div.burger_menu
+            div.burger_menu_wrap
+                each nav_link in headerNav.nav_links
+                    a.burger_link(href="#")= nav_link.nav_link
+                a.burger_link(href="#")= headerNav.nav_registration
+                a.burger_link(href="#")= headerNav.nav_entry
+                div.burger_menu--button
+                    a.burger_link(href="#")= headerNav.nav_button
