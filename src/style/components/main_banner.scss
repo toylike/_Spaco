@@ -523,9 +523,12 @@ main{
         margin-bottom: 25px;
     }
 }
+.box_rates{
+    padding: 0 0 0 15px;
+}
 .rates{
     &_slider{
-        padding-top: 30px;
+        padding-top: 70px;
         align-items: flex-start;
         padding-bottom: 40px;
         display: flex;
@@ -564,7 +567,6 @@ main{
         }
     }
     &_points-title{
-        display: none;
         padding: 10px 0;
         h4{
             font-family: 'Jost';
@@ -744,8 +746,8 @@ main{
 }
 .b_popup-wrap{
     display: none;
-    top: -100px;
-    left: -250px;
+    top: -70px;
+    left: -280px;
     position: absolute;
     max-width: 395px;
     min-width: 395px;
