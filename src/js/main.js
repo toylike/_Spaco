@@ -4,7 +4,7 @@ import objectFitImages from "object-fit-images";
 
 import slider from './modules/slider';
 
-
+$('.single-item').slick();
 $(function() {
   objectFitImages();
   slider();
@@ -23,7 +23,8 @@ function control_nav_bg(y){
       document.querySelector('.nav').style.background = '#0066CC';
     }else{
       document.querySelector('.nav').style.background = 'rgba(4,28,99,.8)';
-      nav.style.bottom = "inherit";
+      nav.classList.remove('nav_active');
+      // nav.style.bottom = "inherit";
     }
      control = true;
   }else{
@@ -32,7 +33,8 @@ function control_nav_bg(y){
       document.querySelector('.nav').style.background = '#0066CC';
     }else{
       document.querySelector('.nav').style.background = 'inherit';
-      nav.style.bottom = "inherit";
+      nav.classList.remove('nav_active');
+      // nav.style.bottom = "inherit";
     }   
   }
 }
@@ -51,7 +53,8 @@ function checkDropMenu(media_check){
     burger_button.classList.remove('burger_button--active');
   }else{
     document.querySelector('.burger_menu').style.display = 'none';
-    nav.style.bottom = "inherit";
+    nav.classList.remove('nav_active');
+    // nav.style.bottom = "inherit";
     if(control == false){
       document.querySelector('.nav').style.background = 'inherit';
     }else{
@@ -64,7 +67,8 @@ function dropMenu(){
   if(burger_button.classList.contains('burger_button--active')){
       document.querySelector('.burger_menu').style.display = 'none';
       burger_button.classList.remove('burger_button--active');
-      nav.style.bottom = "inherit";
+      nav.classList.remove('nav_active');
+      // nav.style.bottom = "inherit";
       if(control == false){
         document.querySelector('.nav').style.background = 'inherit';
       }else{
@@ -74,7 +78,8 @@ function dropMenu(){
       burger_button.classList.add('burger_button--active');
       document.querySelector('.burger_menu').style.display = 'block';
       document.querySelector('.nav').style.background = '#0066CC';
-      nav.style.bottom = "0";
+      nav.classList.add('nav_active');
+      // nav.style.bottom = "0";
   }
 }
 

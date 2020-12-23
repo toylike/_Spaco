@@ -1,0 +1,33 @@
+- const vacancy_banner = LANG.vacancy_banner;
+
+main
+    section.of_banner
+        img.of_banner_logo(src="img/bg_logo_vacancy.png", alt="")
+        img.of_banner_logo_ipad(src="img/bg_logo_vacancy-ipad.png", alt="")
+        img.of_banner_logo_mobile(src="img/bg_logo_vacancy-mobile.png", alt="")
+        div.box
+            div.of_banner_content.vacancy_content
+                div.of_banner_title
+                    h2= vacancy_banner.banner_title
+                div.of_banner_text
+                    p= vacancy_banner.banner_text
+        div.of_banner_article.vacancy_banner
+            div.box
+                div.vacancy_banner_article--title
+                    h1= vacancy_banner.vacancy_cards_title
+                div.vacancy_banner_cards
+                    each vacancy_card in vacancy_banner.vacancy_cards
+                        div.vacancy_banner_card-wrap
+                            div.vacancy_banner_card.vacancy_card
+                                div.vacancy_card_title
+                                    a(href="#")= vacancy_card.vacancy_title_card
+                                div.vacancy_card_text
+                                    each text in vacancy_card.vacancy_text
+                                        p= text.text
+                div.vacancy_banner_join
+                    div.vacancy_banner_join-text
+                        h1= vacancy_banner.join_title
+                        p= vacancy_banner.join_text
+                    div.vacancy_banner_join-button
+                        a(href="#").button_template= vacancy_banner.join_button
+                                

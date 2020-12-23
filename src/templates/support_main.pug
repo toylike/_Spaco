@@ -1,0 +1,29 @@
+- const support = LANG.support;
+
+main
+    section.of_banner.support
+        img.support_banner_logo(src="img/bg_support-logo.png", alt="")
+        img.support_logo_ipad(src="img/bg_support-ipad.png", alt="")
+        img.support_logo_mobile(src="img/bg_support-mobile.png", alt="")
+        div.box
+            div.support_content
+                div.support_title
+                    h2= support.support_banner_title
+        div.container
+            div.support_wrap-cards
+                each card in support.support_cards
+                    div.support_card
+                        div.support_card_wrap-img
+                            div.support_card-img
+                                img(src=card.img, alt="")
+                        div.support_card-text
+                            p= card.text
+    section.support_aside
+        div.container
+            div.support_aside-title
+                h4= support.support_aside_title
+            div.support_aside-contact
+                p= support.support_aside_text
+                a(href="#")= support.support_aside_number
+            div.support_aside-button
+                a(href="#").button_template_two= support.support_aside_button

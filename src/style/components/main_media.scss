@@ -75,6 +75,39 @@
             }
         }
     }
+    .vacancy_banner{
+        &_article--title{
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto 60px;
+            h1{
+                font-size: 60px;
+                line-height: 60px;
+            }
+        }
+    }
+    .support{
+        &_wrap-cards{
+            padding: 120px 20px 80px 20px;
+        }
+        &_card{
+            padding: 50px 40px;
+        }
+    }
+    .support_aside{
+        &-title, &-contact, &-button{
+            padding: 20px 20px;
+        }
+    }
+    .rates_aside{
+        &-title, &-button{
+            padding: 10px 20px;
+        }
+        &-title{
+            font-size: 47px;
+            line-height: 55px;
+        }
+    }
     .footer{
         &_nav{
            width: 100%; 
@@ -114,7 +147,27 @@
         .of_card{
             padding: 90px 50px;
         }
-    }       
+    } 
+    .vacancy_banner{
+        &_article--title{
+            max-width: 680px;
+            width: 100%;
+        }
+        &_card{
+            width: 323px;
+        }
+    }
+    .support{
+        &_banner_logo{
+            display: none;
+        }
+        &_logo_ipad{
+            display: block;
+        }
+        &_content{
+            margin-top: 350px;
+        }
+    }
 }
 
 @media(max-width: 767px){
@@ -161,6 +214,9 @@
             }
         }
     }
+    .banner{
+        min-height: 950px;
+    }
     .banner, .of_banner{
         &_title{
             h2{
@@ -177,7 +233,105 @@
             width: 100%;
         }
     } 
-
+    .vacancy_banner{
+        &_article--title{
+            max-width: 290px;
+            width: 100%;
+            h1{
+                font-size: 35px;
+                line-height: 35px;
+            }
+        }
+        &_cards{
+            max-width: 290px;
+            width: 100%;
+            padding: 0 0;
+            margin: 0 auto;
+        }
+        &_card-wrap{
+            max-width: 100%;
+            width: 100%;
+            padding: 0 0;
+            margin-bottom: 30px;
+        }
+        &_card{
+            max-width: 100%;
+            width: 100%;
+        }
+        &_join{
+            padding: 20px 0px;
+            &-text{
+                h1{
+                    font-size: 35px;
+                    line-height: 35px;
+                }
+                p{
+                    font-size: 25px;
+                    line-height: 30px; 
+                }
+            }
+        }
+    }
+    .vacancy_card{
+        padding: 40px 15px;
+    }
+    .support{
+        &_wrap-cards{
+            padding: 50px 0px 40px 0px;
+        }
+        &_card{
+            flex-direction: column;
+            padding: 40px 12px 70px 12px;
+        }
+        &_card-text{
+            padding-left: 0px;
+            text-align: center;
+            p{
+                font-size: 16px;
+                line-height: 25px;
+            }
+        }
+        &_card_wrap-img{
+            margin-bottom: 30px;
+            padding-right: 0px;
+        }
+    }
+    .support_aside{
+        padding: 70px 0px;
+        &-title, &-contact, &-button{
+            padding: 10px 0px;
+        }
+        &-title{
+            margin-bottom: 20px;
+            h4{
+                font-size: 25px;
+                line-height: 40px;
+            }
+        }
+        &-contact{
+            margin-bottom: 15px;
+            p{
+                font-size: 18px;
+                line-height: 41px;
+                margin-bottom: 0px;
+            }
+            a{
+                line-height: 61px;
+                font-size: 35px;
+            }
+        }
+    }
+    .rates_aside{
+        padding: 60px 0;
+        &-title, &-button{
+            padding: 10px 0px;
+        }
+        &-title{
+            font-size: 30px;
+            line-height: 41px;
+            margin-bottom: 15px;
+        }
+    }
     .footer{
         &_col{
             max-width: 100%;
@@ -241,11 +395,34 @@
             padding-top: 50px;
         }
     }
+    .support{
+        &_logo_mobile{
+            display: block;
+        }
+        &_logo_ipad{
+            display: none;
+        }
+        &_content{
+            margin-top: 230px;
+        }
+        &_title{
+            h2{
+                font-size: 35px;
+                line-height: 35px;
+            }
+        }
+        &_content{
+            max-width: 550px;
+            width: 100%;
+        }
+    }
     
 }
 
 @media(max-width: 500px){
     .banner{
+        min-height: 850px;
+        padding-bottom: 30px;
         &_logo_mobile{
             display: block;
         }
@@ -255,5 +432,19 @@
         &_content{
             margin-top: 250px;
         }
+    }
+    .burger_menu{
+        &_wrap{
+            a{
+                padding: 20px 0;
+            }
+        }
+    }
+    .banner_logo_mobile {
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        transform: translate(-50%, 0);
+        z-index: -1;
     }
 }

@@ -48,12 +48,12 @@ main{
         &_logo_ipad{
             display: none;
             width: 1150px;
-            margin-top: -230px;
+            margin-top: -210px;
         }
         &_logo_mobile{
             display: none;
             width: 1400px;
-            margin-top: -500px;
+            margin-top: -780px;
             margin-left: -30px;
         }
     &:before{
@@ -105,32 +105,6 @@ main{
             margin: 7px 0;
         }
     }
-    &_button{
-        a{
-            display: inline-block;
-            padding: 23px 45px;
-            background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(275.58deg, #0066CC 7.4%, #18FFFF 88.7%);
-            box-shadow: 0px 0px 23px rgba(24, 255, 255, 0.44);
-            border-radius: 50px;
-            border: 3px solid #ffffff;
-            text-decoration: none;
-            color: #0066CC;
-            font-size: 16px;
-            line-height: 16px;
-            font-weight: 500;
-            text-align: center;
-            font-family: 'Roboto', sans-serif;
-            transition: .4s;
-            &:hover{
-                box-shadow: 0px 0px 39px rgba(24, 255, 255, 0.8);
-            }
-            &:focus, &:active{
-                background: #9aafd0;
-                box-shadow: 0px 0px 23px rgba(24, 255, 255, 0.44);
-                border-color: #9aafd0
-            } 
-        }
-    }
 }
 
 
@@ -165,7 +139,7 @@ main{
     &_logo_mobile{
         display: none;
         width: 1400px;
-        margin-top: -860px;
+        margin-top: -880px;
         margin-left: -30px;
     }
     &_content{
@@ -309,6 +283,365 @@ main{
 
 
 
+/*******************************
+***********VACANCY_BANNER*******
+*******************************/
+
+// .of_banner{
+    
+// }
+
+.vacancy_content{
+    max-width: 680px;
+    width: 100%;
+}
+
+.vacancy_banner{
+    &_article--title{
+        padding: 0 25px;
+        text-align: center;
+        margin-bottom: 60px;
+        h1{
+            font-family: 'Jost', sans-serif;
+            font-weight: 300;
+            font-size: 80px;
+            line-height: 80px;
+            color: #FFFFFF;
+        }
+    }
+    &_cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+    }
+    &_card-wrap{
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+    &_card{
+        width: 360px;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 27px rgba(0, 0, 0, 0.18);
+        border-radius: 20px;
+        height: 100%;
+    }
+    &_join{
+        padding: 50px 50px 100px 50px;
+        text-align: center;
+        color: #ffffff;
+        &-text{
+            h1{
+                font-size: 60px;
+                line-height: 60px;
+                font-family: 'Jost';
+                font-weight: 500;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 30px;
+                line-height: 41px;
+                font-weight: 700;
+                opacity: 0.8;
+                font-family: 'Roboto';
+                margin-bottom: 35px;
+            }
+        }
+    }
+}
+.vacancy_card{
+    padding: 50px 30px 55px 30px;
+    &_title{
+        text-align: center;
+        padding: 0 10px;
+        a{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            min-height: 55px;
+            color: #297FCA;
+            text-decoration: none;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+    }
+    &_text{
+        p{
+            font-size: 16px;
+            line-height: 25px;
+            opacity: 0.8;
+            color: #041C63;
+            font-family: 'Roboto';
+        }
+    }
+}
+
+
+/*******************************
+***********SUPPORT_BANNER*******
+*******************************/
+
+.support{
+    &_banner_logo{
+        margin-top: -286px;
+        margin-left: 360px;
+    }
+    &_banner_logo, &_logo_ipad, &_logo_mobile{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        z-index: 0;
+    }
+    &_logo_ipad{
+        display: none;
+        width: 1050px;
+        margin-top: -350px;
+    }
+    &_logo_mobile{
+        display: none;
+        width: 1400px;
+        margin-top: -880px;
+        margin-left: -30px;
+    }
+    &_content{
+        margin-top: 225px;
+        padding: 10px 10px 10px 0px;
+        max-width: 870px;
+        width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+    &_title{
+        margin-bottom: 40px;
+        h2{
+            font-family: 'Jost', sans-serif;
+            font-weight: 500;
+            font-size: 60px;
+            line-height: 60px; 
+            color: #FFFFFF;
+        }
+    }
+    &_wrap-cards{
+        padding: 170px 75px 100px 75px;
+        position: relative;
+        z-index: 2;
+    }
+    &_card{
+        display: flex;
+        align-items: center;
+        padding: 70px 60px;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 27px rgba(0, 0, 0, 0.18);
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    &_card-text{
+        padding-left: 25px;
+        p{
+            font-size: 30px;
+            line-height: 41px;
+            color: #041C63;
+        }
+    }
+    &_card_wrap-img{
+        display: flex;
+        align-items: center;
+        padding-right: 25px;
+    }
+    &_card-img{
+        width: 110px;
+        height: 110px;
+        img{
+            max-width: 100%;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
+.support_aside{
+    padding: 90px 0px 170px 0px;
+    &-title, &-contact, &-button{
+        text-align: center;
+        padding: 20px 150px;
+        color: #041C63;
+        font-family: 'Roboto';
+    }
+    &-title{
+        margin-bottom: 30px;
+        h4{
+            font-size: 30px;
+            line-height: 41px;
+            font-weight: 700;
+        }
+    }
+    &-contact{
+        margin-bottom: 20px;
+        p{
+            font-size: 30px;
+            line-height: 41px;
+            font-weight: 700;
+            opacity: 0.8;
+            margin-bottom: 15px;
+        }
+        a{
+            font-size: 66.1765px;
+            line-height: 61px;
+            font-weight: 700;
+            color: #041C63;
+            text-decoration: none;
+            background-image: linear-gradient(to bottom, #041C63 75%, transparent 75%);
+            background-position: 0 1.04em;
+            background-repeat: no-repeat;
+            background-size: 100% 5px;
+        }
+    }
+}
+
+
+
+
+/*******************************
+***********RATE_ASIDE***********
+*******************************/
+
+
+.rates_aside{
+    padding: 80px 0;
+    background: linear-gradient(to left,#18ffff -19.73%,#06c 48.41%,#060644 113.77%);
+
+    &-title, &-button{
+        padding: 10px 100px;
+        text-align: center;
+    }
+    &-title{
+        font-size: 60px;
+        line-height: 60px;
+        font-family: 'Jost';
+        color: #FFFFFF;
+        margin-bottom: 25px;
+    }
+}
+.rates{
+    &_slider{
+        padding-top: 100px;
+        display: flex;
+        button{
+            display: none !important;
+        }
+    }
+    &_points-wrap{
+        padding: 40px 0;
+    }
+    &_points-title{
+        padding: 10px 0;
+        h4{
+            font-family: 'Jost';
+            font-weight: 500;
+            font-size: 60px;
+            line-height: 58px;
+            color: #ffffff;
+        }
+        p{
+            font-family: 'Roboto';
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 80px;
+            color: #ffffff;
+            opacity: 0.8;
+        }
+    }
+    &_point{
+        padding-left: 15px;
+        p{
+            font-size: 18px;
+            line-height: 56px;
+            opacity: 0.8;
+            font-family: 'Roboto';
+            color: #ffffff;
+        }
+        &:nth-child(2n+1){
+            background: rgba(4, 28, 99, 0.2);;
+        }
+    }
+    &_tariff-wrap{
+        padding: 0 10px;
+    }
+    &_tariff{
+        min-width: 225px;
+        padding: 20px 15px;
+        background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(329.31deg, #041C63 5.49%, #0066CC 65.66%);
+        box-shadow: 0px 10px 27px rgba(0, 0, 0, 0.18);
+        border-radius: 20px;
+        height: 100%;
+    }
+    &_tariff-title{
+        text-align: center;
+        margin-bottom: 20px;
+        h5{
+            font-family: 'Jost';
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 58px;
+            color: #041C63;
+        }
+    }
+    &_tariff_price{
+        width: 190px;
+        height: 190px;
+        background: linear-gradient(329.31deg, #041C63 5.49%, #0066CC 65.66%);
+        border-radius:50% 50%;
+        margin: 0 auto;
+    }
+    &_tariff_price-wrap{
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &_tariff_price--currency{
+        p{
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 41px;
+            color: #ffffff;
+        }
+    }
+    &_tariff_price--cost{
+        p{
+            font-family: 'Jost';
+            font-weight: 500;
+            font-size: 60px;
+            line-height: 60px;
+            color: #ffffff;
+        }
+    }
+    &_tariff_price--time{
+        p{
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 41px;
+            opacity: 0.7;
+            color: #ffffff;
+        }
+    }
+    &_tariff_points-title{
+        text-align: center;
+        p{
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 80px;
+            color: #041C63;
+        }
+    }
+}
 
 /*******************************
 ************ARTICLE*************
@@ -349,53 +682,19 @@ main{
     }
     &_button{
         text-align: center;
-        a{
-            display: inline-block;
-            position: relative;
-            padding: 23px 45px;
-            border-radius: 50px;
-            text-decoration: none;
-            color: #041C63;
-            font-size: 16px;
-            line-height: 16px;
-            font-weight: 500;
-            background: #ffffff;
-            text-align: center;
-            font-family: 'Roboto', sans-serif;
-            transition: .4s; 
-            &:before{
-                content: "";
-                position: absolute;
-                z-index: -1;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                width: 100%;
-                height: 100%;
-                padding: 5px;  
-                border-radius: 50px; 
-                background: linear-gradient(329.31deg, #041C63 5.49%, #0066CC 65.66%); 
-             }
-             &:hover, &:focus, &:active{
-                    background: transparent;
-                    color: #ffffff;
-                } 
-             &:focus:before, &:active:before{
-                background: #041C63;
-            }
-        }
     }
 }
 .card{
     padding: 50px 20px 60px 20px;
     &_img{
         width: 110px;
-        height: 87px;
+        height: 110px;
         margin: 0 auto;
         margin-bottom: 40px;
         img{
             width: 100%;
-            height: 100%;
+            max-height: 100%;
+            height: auto;
             object-fit: contain;
         }
     }

@@ -1,0 +1,54 @@
+- const rates = LANG.rates;
+
+
+main
+    section.banner
+        div.box
+            div.rates_slider
+                div.rates_points-wrap
+                    div.rates_points-title
+                        h4= rates.points_title
+                        p= rates.points_text
+                    div.rates_points
+                        each point in rates.slider_points
+                            div.rates_point
+                                p= point.point_text
+                each elem in rates.slider_tariff
+                    div.rates_tariff-wrap
+                        div.rates_tariff
+                            div.rates_tariff-title
+                                h5= elem.slider_tariff_title
+                            div.rates_tariff_price
+                                div.rates_tariff_price-wrap
+                                    span.rates_tariff_price--currency
+                                        p= elem.slider_tariff_currency
+                                    span.rates_tariff_price--cost
+                                        p= elem.slider_tariff_cost
+                                    span.rates_tariff_price--time
+                                        p= elem.slider_tariff_time
+                            div.rates_tariff_points
+                                div.rates_tariff_points-title
+                                    p= elem.slider_tariff_size
+                                div.rates_tariff_points-button
+                                    a(href="")
+                                   
+                                        
+    section.article
+        div.container
+            div.article_title
+                h1= rates.rates_title
+            div.article_cards
+                each card in rates.rates_cards
+                    div.article_card-wrap
+                        div.article_card.card
+                            div.card_img
+                                img(src=card.src_img_card)
+                            div.card_text
+                                a(href="#")= card.title_card
+                                p= card.text_card
+    section.rates_aside
+        div.container
+            div.rates_aside-title
+                h1= rates.rates_aside_title
+            div.rates_aside-button
+                a(href="#").button_template= rates.rates_aside_button

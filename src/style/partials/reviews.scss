@@ -26,14 +26,10 @@
 	}
 
 	&__content {
-		width: 91%;
-		padding-top: 90px;
+		width: 100%;
+		padding-top: 144px;
 		padding-bottom: 170px;
 		margin-left: auto;
-
-		@media screen and (max-width: $breakpoint-l) {
-			width: 100%;
-		}
 
 		@media screen and (max-width: $breakpoint-s) {
 			padding-top: 70px;
@@ -188,7 +184,7 @@
 		left: 75px;
 		top: -420px;
 		z-index: 200;
-
+		user-select: none;
 		@media screen and (max-width: $breakpoint-s) {
 			display: none;
 		}
@@ -201,7 +197,7 @@
 		}
 
 		&.active {
-			animation-duration: 0.7s;
+			animation-duration: 0.5s;
 			animation-name: slide-animation;
 
 		}

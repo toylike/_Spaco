@@ -56,10 +56,13 @@ export default function slider() {
 
 				});
 
-				current_slide.addEventListener("animationend", function () {
+				$(slider2).on('afterChange', function (event, slick, currentSlide) {
 					current_slide.classList.remove("active");
-					
 				});
+
+				// current_slide.addEventListener("animationend", function () {
+				// 	current_slide.classList.remove("active");	
+				// });
 
 			}
 		}
