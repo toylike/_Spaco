@@ -59,6 +59,9 @@
         align-items: center;
         flex-wrap: wrap;
     }
+    .hidden_button{
+        display: none;
+    }
     &_button{
         padding: 0 40px 0 5px;
         a{

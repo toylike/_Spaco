@@ -4,11 +4,23 @@ import objectFitImages from "object-fit-images";
 
 import slider from './modules/slider';
 
-$('.single-item').slick();
+import PerfectScrollbar from 'perfect-scrollbar';
+
 $(function() {
   objectFitImages();
   slider();
+
+  const rates_wrap = document.getElementById('rates_wrap_js');
+  
+  if (rates_wrap) {
+    const ps = new PerfectScrollbar(rates_wrap, {
+      // wheelPropagation: true,
+      suppressScrollY: true,
+      minScrollbarLength: 20
+    });
+  }
 });
+
 
 
 let burger_button = document.querySelector('.burger_button');
@@ -93,3 +105,4 @@ let burger_links = document.querySelectorAll('.burger_link');
 for(let burger_link of burger_links){
   burger_link.addEventListener('click',dropMenu)
 }
+

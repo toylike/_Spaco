@@ -80,9 +80,6 @@
           },
           {
             "col_link": "Тарифные планы"
-          },
-          {
-            "col_link": "Возможности"
           }
         ]
       },
@@ -272,6 +269,8 @@
     "rates_aside_button": "Попробовать бесплатно",
     "points_title": "Наши тарифы",
     "points_text": "(подписка на 1 месяц)",
+    "rates_tariff_button": "купить",
+    "rates_popup": "Когда срок действия пробного тарифа закончится, вы будете переведены на тариф Начальный",
     "rates_cards": [
       {
         "src_img_card": "img/rates_icon-cylinder.svg",

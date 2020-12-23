@@ -1,44 +1,53 @@
 - const rates = LANG.rates;
 
 
-main
-    section.banner
-        div.box
-            div.rates_slider
-                div.rates_points-wrap
-                    div.rates_points-title
-                        h4= rates.points_title
-                        p= rates.points_text
-                    div.rates_points
-                        each point in rates.slider_points
-                            div.rates_point
-                                p= point.point_text
-                each elem in rates.slider_tariff
-                    div.rates_tariff-wrap
-                        div.rates_tariff
-                            div.rates_tariff-title
-                                h5= elem.slider_tariff_title
-                            div.rates_tariff_price
-                                div.rates_tariff_price-wrap
-                                    span.rates_tariff_price--currency
-                                        p= elem.slider_tariff_currency
-                                    span.rates_tariff_price--cost
-                                        p= elem.slider_tariff_cost
-                                    span.rates_tariff_price--time
-                                        p= elem.slider_tariff_time
-                            div.rates_tariff_points
-                                div.rates_tariff_point.rates_tariff_points-title
-                                    p= elem.slider_tariff_size
-                                div.rates_tariff_point.rates_tariff_point-one
-                                    img(src=elem.rates_tariff_point_one, alt="")
-                                div.rates_tariff_point.rates_tariff_point-two
-                                    img(src=elem.rates_tariff_point_two, alt="")
-                                div.rates_tariff_point.rates_tariff_point-three
-                                    img(src=elem.rates_tariff_point_three, alt="")
-                                div.rates_tariff_point.rates_tariff_point-four
-                                    img(src=elem.rates_tariff_point_four, alt="")
-                                div.rates_tariff_point.rates_tariff_point-five
-                                    img(src=elem.rates_tariff_point_five, alt="")
+main    
+    section.banner.rate_banner
+        div.box.box_rates
+            div#rates_wrap_js.rates_slider-wrap
+                div.rates_points-title-mobile
+                    h4= rates.points_title
+                    p= rates.points_text
+                div.rates_slider
+                    div.rates_points-wrap
+                        div.rates_points-title
+                            h4= rates.points_title
+                            p= rates.points_text
+                        div.rates_points
+                            each point in rates.slider_points
+                                div.rates_point
+                                    p= point.point_text
+                    each elem, index in rates.slider_tariff
+                        div.rates_tariff-wrap
+                            if index == 0
+                                div.b_popup-wrap
+                                    p= rates.rates_popup
+                            div.rates_tariff
+                                div.rates_tariff-title
+                                    h5= elem.slider_tariff_title
+                                div.rates_tariff_price
+                                    div.rates_tariff_price-wrap
+                                        span.rates_tariff_price--currency
+                                            p= elem.slider_tariff_currency
+                                        span.rates_tariff_price--cost
+                                            p= elem.slider_tariff_cost
+                                        span.rates_tariff_price--time
+                                            p= elem.slider_tariff_time
+                                div.rates_tariff_points
+                                    div.rates_tariff_point.rates_tariff_points-title
+                                        p= elem.slider_tariff_size
+                                    div.rates_tariff_point.rates_tariff_point-one
+                                        img(src=elem.rates_tariff_point_one, alt="")
+                                    div.rates_tariff_point.rates_tariff_point-two
+                                        img(src=elem.rates_tariff_point_two, alt="")
+                                    div.rates_tariff_point.rates_tariff_point-three
+                                        img(src=elem.rates_tariff_point_three, alt="")
+                                    div.rates_tariff_point.rates_tariff_point-four
+                                        img(src=elem.rates_tariff_point_four, alt="")
+                                    div.rates_tariff_point.rates_tariff_point-five
+                                        img(src=elem.rates_tariff_point_five, alt="")
+                                div.rates_tariff_button
+                                    a(href="#")= rates.rates_tariff_button
     section.article
         div.container
             div.article_title

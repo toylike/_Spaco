@@ -416,6 +416,106 @@
             width: 100%;
         }
     }
+    .rate_banner{
+        min-height: 750px;
+    }
+    .box_rates{
+        padding: 0 0;
+    }
+    .rates{
+        &_points-wrap{
+            padding-top: 161px;
+            padding-left: 10px;
+            min-width: 160px;
+        }
+        &_tariff{
+            padding: 20px 0 20px 0;
+            min-width: 135px;
+        }
+        &_tariff-wrap{
+            padding: 0 5px;
+        }
+        &_point{
+            height: 43px;
+            display: flex;
+            align-items: center;
+            padding-left: 0px;
+            p{
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+        &_points-title-mobile{
+            display: block;
+        }
+        &_points-title{
+            h4{
+                font-size: 38px;
+                line-height: 38px;
+            }
+            p{
+                font-size: 18px;
+                 line-height: 30px;
+            }
+        }
+        &_tariff-title{
+            h5{
+                font-size: 16px;
+                line-height: 30px;
+            }
+        }
+        &_tariff_price{
+            width: 72px;
+            height: 72px;
+        }
+        &_tariff_price--currency{
+            P{
+                font-size: 12px;
+                line-height: 16px;
+            }
+        }
+        &_tariff_price--cost{
+            P{
+                font-size: 25px;
+                line-height: 22px;
+            }
+        }
+        &_tariff_price--time{
+            P{
+                font-size: 12px;
+                line-height: 16px;
+            }
+        }
+        &_tariff_points-title{
+            p{
+                font-size: 16px;
+                line-height: 30px;
+            }
+        }
+        &_tariff_point > img{
+            width: 22.37px;
+            height: 20px;
+        }
+        &_tariff_point{
+            height: 43px;
+        }
+        &_tariff_button{
+            a{
+                padding: 10px 25px;
+            }
+        }
+    }
+    .b_popup-wrap{
+        padding: 10px 20px;
+        min-width: 250px;
+        top: -100px;
+        left: -130px;
+        height: 130px;
+        p{
+            font-size: 12px;
+            line-height: 25px;
+        }
+    }
     
 }
 
@@ -446,5 +546,8 @@
         top: 0%;
         transform: translate(-50%, 0);
         z-index: -1;
+    }
+    .rate_banner{
+        min-height: 550px;
     }
 }
