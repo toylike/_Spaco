@@ -331,42 +331,59 @@
         "slider_tariff_cost": "1",
         "slider_tariff_time": "/24 часа",
         "slider_tariff_size": "1 тб",
-        "slider_tariff_points": [
-          {
-            "slider_tariff_point" : "1"
-          },
-          {
-            "slider_tariff_point" : "2"
-          }
-        ]
+        "rates_tariff_point_one" : "img/rates_tick.png",
+        "rates_tariff_point_two" : "img/rates_cross.png",
+        "rates_tariff_point_three" : "img/rates_cross.png",
+        "rates_tariff_point_four" : "img/rates_cross.png",
+        "rates_tariff_point_five" : "img/rates_cross.png"
       },
       {
         "slider_tariff_title": "Начальный",
         "slider_tariff_currency": "РУБ",
         "slider_tariff_cost": "349",
         "slider_tariff_time": "/1 месяц",
-        "slider_tariff_size": "1 тб"
+        "slider_tariff_size": "1 тб",
+        "rates_tariff_point_one" : "img/rates_tick.png",
+        "rates_tariff_point_two" : "img/rates_tick.png",
+        "rates_tariff_point_three" : "img/rates_cross.png",
+        "rates_tariff_point_four" : "img/rates_cross.png",
+        "rates_tariff_point_five" : "img/rates_cross.png"
       },
       {
         "slider_tariff_title": "Стандарт",
         "slider_tariff_currency": "РУБ",
         "slider_tariff_cost": "699",
         "slider_tariff_time": "/1 месяц",
-        "slider_tariff_size": "2 тб"
+        "slider_tariff_size": "2 тб",
+        "rates_tariff_point_one" : "img/rates_tick.png",
+        "rates_tariff_point_two" : "img/rates_tick.png",
+        "rates_tariff_point_three" : "img/rates_tick.png",
+        "rates_tariff_point_four" : "img/rates_cross.png",
+        "rates_tariff_point_five" : "img/rates_cross.png"
       },
       {
         "slider_tariff_title": "Оптимальный",
         "slider_tariff_currency": "РУБ",
         "slider_tariff_cost": "699",
         "slider_tariff_time": "/1 месяц",
-        "slider_tariff_size": "5 тб"
+        "slider_tariff_size": "5 тб",
+        "rates_tariff_point_one" : "img/rates_tick.png",
+        "rates_tariff_point_two" : "img/rates_tick.png",
+        "rates_tariff_point_three" : "img/rates_tick.png",
+        "rates_tariff_point_four" : "img/rates_tick.png",
+        "rates_tariff_point_five" : "img/rates_cross.png"
       },
       {
         "slider_tariff_title": "Продвинутый",
         "slider_tariff_currency": "РУБ",
         "slider_tariff_cost": "1399",
         "slider_tariff_time": "/1 месяц",
-        "slider_tariff_size": "10 тб"
+        "slider_tariff_size": "10 тб",
+        "rates_tariff_point_one" : "img/rates_tick.png",
+        "rates_tariff_point_two" : "img/rates_tick.png",
+        "rates_tariff_point_three" : "img/rates_tick.png",
+        "rates_tariff_point_four" : "img/rates_tick.png",
+        "rates_tariff_point_five" : "img/rates_tick.png"
       }
     ]
   },
