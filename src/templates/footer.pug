@@ -7,12 +7,11 @@ footer
                 each col in footer.cols
                     div.footer_col
                         div.footer_col--title
-                            a(href="#")= col.col_title
+                            a(href=col.col_link_path)= col.col_title
                         div.footer_col--link
-                            each link in col.col_links
-                                a(href="#")= link.col_link
+                            each link,index in col.col_links
+                                 a(href=link.col_link_path)= link.col_link
+                            
             div.footer_info
                 div.footer_logo
                     img(src=footer.footer_img)
-                div.footer_text
-                    p= footer.footer_text

@@ -79,30 +79,37 @@
     "cols": [
       {
         "col_title": "Сервис" ,
+        "col_link_path": "#",
         "col_links": [
           {
-            "col_link": "Мобильное приложение"
+            "col_link": "Мобильное приложение",
+            "col_link_path": "of_spaco.html"
           },
           {
-            "col_link": "Тарифные планы"
+            "col_link": "Тарифные планы",
+            "col_link_path": "rates.html"
           }
         ]
       },
   
       {
         "col_title": "Компания",
+        "col_link_path": "#",
         "col_links": [
           {
-            "col_link": "О нас"
+            "col_link": "О нас",
+            "col_link_path": "index.html"
           },
           {
-            "col_link": "Вакансии"
+            "col_link": "Вакансии",
+            "col_link_path": "vacancy.html"
           }
         ]
       },
   
       {
         "col_title": "Поддержка",
+        "col_link_path": "of_spaco.html",
         "col_links": [
           {
             "col_link": "Свяжитесь с нами"
@@ -118,6 +125,7 @@
   
       {
         "col_title": "Язык",
+        "col_link_path": "#",
         "col_links": [
           {
             "col_link": "Русский"
