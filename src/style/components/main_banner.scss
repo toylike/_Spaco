@@ -548,8 +548,9 @@ main{
         overflow: hidden;
     }
     &_points-title-mobile{
-        padding: 40px 10px 10px 20px;
+        padding: 0px 10px 50px 20px;
         display: none;
+        position: absolute;
         h4{
             font-family: 'Jost';
             font-weight: 500;
@@ -752,7 +753,7 @@ main{
     box-sizing: border-box;
     border-radius: 20px;
     padding: 25px 30px;
-    z-index: 3;
+    z-index: 99999;
     &:before {
         border:39px solid transparent;
         border-bottom-color: #FF0000;
