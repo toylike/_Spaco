@@ -109,16 +109,19 @@
   
       {
         "col_title": "Поддержка",
-        "col_link_path": "of_spaco.html",
+        "col_link_path": "support.html",
         "col_links": [
           {
-            "col_link": "Свяжитесь с нами"
+            "col_link": "Свяжитесь с нами",
+            "col_link_path": "#"
           },
           {
-            "col_link": "Правила и условия"
+            "col_link": "Правила и условия",
+            "col_link_path": "#"
           },
           {
-            "col_link": "Политика Конфиденциальности"
+            "col_link": "Политика Конфиденциальности",
+            "col_link_path": "#"
           }
         ]
       },
@@ -128,10 +131,12 @@
         "col_link_path": "#",
         "col_links": [
           {
-            "col_link": "Русский"
+            "col_link": "Русский",
+            "col_link_path": "#"
           },
           {
-            "col_link": "English"
+            "col_link": "English",
+            "col_link_path": "#"
           }
         ]
       }
