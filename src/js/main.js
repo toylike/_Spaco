@@ -105,21 +105,3 @@ for(let burger_link of burger_links){
 }
 
 
-
-// function check(choose_bg_nav){
-
-//   if(choose_bg_nav.matches){
-
-//   }else{
-//     window.onscroll = function() {
-//       let scrolled = window.pageYOffset || document.documentElement.scrollTop;
-//       document.querySelector('.nav_bg').style.backgroundColor= scrolled==0?"inherit":"rgba(4, 28, 99, 0.8)"
-//       }
-//   }
-// }
-
-
-// let choose_bg_nav = window.matchMedia("(max-width: 767px)")
-// check(choose_bg_nav)
-// choose_bg_nav.addListener(check)
-

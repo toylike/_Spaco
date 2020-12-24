@@ -2,20 +2,25 @@
   "nav": {
     "nav_logo": "img/nav_logo.png",
     "nav_button": "Мобильное приложение",
+    "nav_button_path": "of_Spaco.html",
     "nav_registration": "Регистрация",
     "nav_entry": "Вход",
     "nav_links": [
       {
-        "nav_link": "О нас"
+        "nav_link": "О нас",
+        "nav_path": "index.html"
       },
       {
-        "nav_link": "Тарифы"
+        "nav_link": "Тарифы",
+        "nav_path": "rates.html"
       },
       {
-        "nav_link": "Вакансии"
+        "nav_link": "Вакансии",
+        "nav_path": "vacancy.html"
       },
       {
-        "nav_link": "Поддержка"
+        "nav_link": "Поддержка",
+        "nav_path": "support.html"
       }
     ]
   },
@@ -269,7 +274,7 @@
     "rates_aside_button": "Попробовать бесплатно",
     "points_title": "Наши тарифы",
     "points_text": "(подписка на 1 месяц)",
-    "rates_tariff_button": "купить",
+    "rates_tariff_button": "Купить",
     "rates_popup": "Когда срок действия пробного тарифа закончится, вы будете переведены на тариф Начальный",
     "rates_cards": [
       {
@@ -283,7 +288,7 @@
         "text_card": "Антивирус проверяет все загружаемые файлы на вирусы — чтобы обеспечить безопасность вам и тем, кому вы даете ссылку на файл"
       },
       {
-        "src_img_card": "img/rates_icon-c-Arrow.svg",
+        "src_img_card": "img/re.svg",
         "title_card": "Резервные копии",
         "text_card": "Мы делаем резервные копии ваших файлов на случай непредвиденных ситуаций — чтобы вы были уверены, что не потеряете к ним доступ."
       },

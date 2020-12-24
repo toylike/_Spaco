@@ -149,6 +149,7 @@
         }
     } 
     .vacancy_banner{
+        padding-top: 160px;
         &_article--title{
             max-width: 680px;
             width: 100%;
@@ -342,6 +343,7 @@
     .nav{
         min-height: 60px;
         background: rgba(4, 28, 99, 0.8);
+        position: fixed;
         &_button{
             display: none;
         }
@@ -506,7 +508,16 @@
         }
         &_tariff_button{
             a{
-                padding: 10px 25px;
+                min-width: 102px;
+                height: 33px;
+                border-radius: 16px;
+                span{
+                    content: "";
+                    min-width: 98px;
+                    height: 29px;
+                    border-radius: 14px;
+                    line-height: 6px;
+                 }
             }
         }
     }

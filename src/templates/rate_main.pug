@@ -4,10 +4,10 @@
 main    
     section.banner.rate_banner
         div.box.box_rates
-            div#rates_wrap_js.rates_slider-wrap
-                div.rates_points-title-mobile
+            div.rates_points-title-mobile
                     h4= rates.points_title
                     p= rates.points_text
+            div#rates_wrap_js.rates_slider-wrap
                 div.rates_slider
                     div.rates_points-wrap
                         div.rates_points-title
@@ -47,17 +47,22 @@ main
                                     div.rates_tariff_point.rates_tariff_point-five
                                         img(src=elem.rates_tariff_point_five, alt="")
                                 div.rates_tariff_button
-                                    a(href="#")= rates.rates_tariff_button
+                                    a(href="#")
+                                        span= rates.rates_tariff_button
     section.article
         div.container
             div.article_title
                 h1= rates.rates_title
             div.article_cards
-                each card in rates.rates_cards
+                each card,index in rates.rates_cards
                     div.article_card-wrap
                         div.article_card.card
-                            div.card_img
-                                img(src=card.src_img_card)
+                            if index == 2
+                                div.card_img.card_img_grow
+                                    img(src=card.src_img_card)
+                            else
+                                div.card_img
+                                        img(src=card.src_img_card)
                             div.card_text
                                 a(href="#")= card.title_card
                                 p= card.text_card
