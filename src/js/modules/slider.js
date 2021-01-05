@@ -50,7 +50,7 @@ export default function slider() {
 				$(slider2).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
 
 					$(current_slide_img).attr({
-						"src": `img/review${nextSlide+1}.png`
+						"src": `/img/review${nextSlide+1}.png`
 					});
 					current_slide.classList.add("active");
 

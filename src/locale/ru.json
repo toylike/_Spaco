@@ -1,6 +1,6 @@
 {
   "nav": {
-    "nav_logo": "img/nav_logo.png",
+    "nav_logo": "/img/nav_logo.png",
     "nav_button": "Мобильное приложение",
     "nav_button_path": "of_spaco.html",
     "nav_registration": "Регистрация",
@@ -30,9 +30,9 @@
     "banner_h4": "Космический объем, сверхсветовые скорости",
     "banner_text": "Кроссплатформенный сервис Spaco — это возможность быстро получать доступ к вашим файлам и безопасно обмениваться ими с другими пользователями.",
     "banner_button": "Попробовать бесплатно",
-    "banner_logo" : "img/bg_logo-header2.png",
-    "banner_logo_ipad" : "img/bg_logo_ipad.png",
-    "banner_logo_mobile" : "img/bg_logo_mobile.png"
+    "banner_logo" : "/img/bg_logo-header2.png",
+    "banner_logo_ipad" : "/img/bg_logo_ipad.png",
+    "banner_logo_mobile" : "/img/bg_logo_mobile.png"
   },
 
   "article": {
@@ -42,39 +42,39 @@
 
   "cards": [
     {
-      "src_img_card": "img/icon_folder.svg",
+      "src_img_card": "/img/icon_folder.svg",
       "title_card": "Хранение любых данных",
       "text_card": "Документы, видео, презентации, архивы, проекты — у нас нет ограничений на объем или расширение загружаемых файлов."
     },
     {
-      "src_img_card": "img/icon_screen.svg",
+      "src_img_card": "/img/icon_screen.svg",
       "title_card": "Доступ со всех устройств",
       "text_card": "Память вашего компьютера и телефона останется свободной — все ваши файлы хранятся на наших серверах."
     },
     {
-      "src_img_card": "img/icon_safety.svg",
+      "src_img_card": "/img/icon_safety.svg",
       "title_card": "Безопасность данных",
       "text_card": "Мы используем 256-битное шифрование и встроенный антивирус, чтобы защитить вас от взлома и вредоносных программ."
     },
     {
-      "src_img_card": "img/icon_arrow.svg",
+      "src_img_card": "/img/icon_arrow.svg",
       "title_card": "Быстрый обмен",
       "text_card": "Не нужно ждать отправки или давать кому-то доступ к вашим папкам — просто сформируйте ссылку на скачивание в пару кликов."
     },
     {
-      "src_img_card": "img/icon_calendar.svg",
+      "src_img_card": "/img/icon_calendar.svg",
       "title_card": "История версий",
       "text_card": "Мы регулярно делаем резервные копии. Любой удаленный или измененный файл можно восстановить в течении 30 дней."
     },
     {
-      "src_img_card": "img/icon_operator.svg",
+      "src_img_card": "/img/icon_operator.svg",
       "title_card": "Оперативная поддержка",
       "text_card": "Если у вас возникли сложности, отправьте заявку в техподдержку — и наш оператор свяжется с вами в течение 15 минут."
     }
   ],
 
   "footer": {
-    "footer_img" : "img/footer_logo.png",
+    "footer_img" : "/img/footer_logo.png",
     "footer_text" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia",
     "cols": [
       {
@@ -149,15 +149,15 @@
     "of_cards_title": "Как это работает",
     "of_cards": [
       {
-        "of_img_card": "img/of_card_app.svg",
+        "of_img_card": "/img/of_card_app.svg",
         "of_title_card": "Загружаете файл в приложение"
       },
       {
-        "of_img_card": "img/of_card_wifi.svg",
+        "of_img_card": "/img/of_card_wifi.svg",
         "of_title_card": "Появляется доступ в интернет"
       },
       {
-        "of_img_card": "img/of_card_cloud.svg",
+        "of_img_card": "/img/of_card_cloud.svg",
         "of_title_card": "Файл автоматически попадает в хранилище"
       }
     ]
@@ -267,15 +267,15 @@
     "support_aside_button" : "Отправить запрос",
     "support_cards": [
       {
-        "img": "img/support_phone.svg",
+        "img": "/img/support_phone.svg",
         "text": "Наша техподдержка работает в режиме 24/7 — мы готовы ответить вам в любое время суток, где бы вы ни находились."
       },
       {
-        "img": "img/support_clock.svg",
+        "img": "/img/support_clock.svg",
         "text": "Среднее время ответа оператора 10 минут — вы получите нужную информацию действительно быстро, не тратя лишнее время и нервы."
       },
       {
-        "img": "img/support_lang.svg",
+        "img": "/img/support_lang.svg",
         "text": "Консультации на русском и английском — с вами будет общаться носитель языка, поэтому недопонимания не возникнет."
       }
     ]
@@ -291,32 +291,32 @@
     "rates_popup": "Когда срок действия пробного тарифа закончится, вы будете переведены на тариф Начальный",
     "rates_cards": [
       {
-        "src_img_card": "img/rates_icon-cylinder.svg",
+        "src_img_card": "/img/rates_icon-cylinder.svg",
         "title_card": "Ваше пространство",
         "text_card": "Вы можете использовать его для хранения любых типов файлов, без ограничений по размеру, времени хранения или количеству скачиваний."
       },
       {
-        "src_img_card": "img/rates_icon-shield.svg",
+        "src_img_card": "/img/rates_icon-shield.svg",
         "title_card": "Проверка на вирусы",
         "text_card": "Антивирус проверяет все загружаемые файлы на вирусы — чтобы обеспечить безопасность вам и тем, кому вы даете ссылку на файл"
       },
       {
-        "src_img_card": "img/re.svg",
+        "src_img_card": "/img/re.svg",
         "title_card": "Резервные копии",
         "text_card": "Мы делаем резервные копии ваших файлов на случай непредвиденных ситуаций — чтобы вы были уверены, что не потеряете к ним доступ."
       },
       {
-        "src_img_card": "img/rates_icon-arrow.svg",
+        "src_img_card": "/img/rates_icon-arrow.svg",
         "title_card": "Восстановление данных",
         "text_card": "Если вы случайно удалили нужный файл — мы восстановим его, если со времени удаления прошло не больше 30 дней."
       },
       {
-        "src_img_card": "img/rates_icon-man.svg",
+        "src_img_card": "/img/rates_icon-man.svg",
         "title_card": "Личный менеджер",
         "text_card": "Будет на связи в любое время — проконсультирует, обучит работе с сервисом и поможет быстро решить любой возникший вопрос."
       },
       {
-        "src_img_card": "img/rates_icon-case.svg",
+        "src_img_card": "/img/rates_icon-case.svg",
         "title_card": "Бизнес-инструменты",
         "text_card": "Набор функций для работы в команде, включающий возможности пользоваться файлами совместно и распределять права доступа."
       }
@@ -348,11 +348,11 @@
         "slider_tariff_cost": "1",
         "slider_tariff_time": "/24 часа",
         "slider_tariff_size": "1 тб",
-        "rates_tariff_point_one" : "img/rates_tick.png",
-        "rates_tariff_point_two" : "img/rates_cross.png",
-        "rates_tariff_point_three" : "img/rates_cross.png",
-        "rates_tariff_point_four" : "img/rates_cross.png",
-        "rates_tariff_point_five" : "img/rates_cross.png"
+        "rates_tariff_point_one" : "/img/rates_tick.png",
+        "rates_tariff_point_two" : "/img/rates_cross.png",
+        "rates_tariff_point_three" : "/img/rates_cross.png",
+        "rates_tariff_point_four" : "/img/rates_cross.png",
+        "rates_tariff_point_five" : "/img/rates_cross.png"
       },
       {
         "slider_tariff_title": "Начальный",
@@ -360,11 +360,11 @@
         "slider_tariff_cost": "349",
         "slider_tariff_time": "/1 месяц",
         "slider_tariff_size": "1 тб",
-        "rates_tariff_point_one" : "img/rates_tick.png",
-        "rates_tariff_point_two" : "img/rates_tick.png",
-        "rates_tariff_point_three" : "img/rates_cross.png",
-        "rates_tariff_point_four" : "img/rates_cross.png",
-        "rates_tariff_point_five" : "img/rates_cross.png"
+        "rates_tariff_point_one" : "/img/rates_tick.png",
+        "rates_tariff_point_two" : "/img/rates_tick.png",
+        "rates_tariff_point_three" : "/img/rates_cross.png",
+        "rates_tariff_point_four" : "/img/rates_cross.png",
+        "rates_tariff_point_five" : "/img/rates_cross.png"
       },
       {
         "slider_tariff_title": "Стандарт",
@@ -372,23 +372,23 @@
         "slider_tariff_cost": "699",
         "slider_tariff_time": "/1 месяц",
         "slider_tariff_size": "2 тб",
-        "rates_tariff_point_one" : "img/rates_tick.png",
-        "rates_tariff_point_two" : "img/rates_tick.png",
-        "rates_tariff_point_three" : "img/rates_tick.png",
-        "rates_tariff_point_four" : "img/rates_cross.png",
-        "rates_tariff_point_five" : "img/rates_cross.png"
+        "rates_tariff_point_one" : "/img/rates_tick.png",
+        "rates_tariff_point_two" : "/img/rates_tick.png",
+        "rates_tariff_point_three" : "/img/rates_tick.png",
+        "rates_tariff_point_four" : "/img/rates_cross.png",
+        "rates_tariff_point_five" : "/img/rates_cross.png"
       },
       {
         "slider_tariff_title": "Оптимальный",
         "slider_tariff_currency": "РУБ",
-        "slider_tariff_cost": "699",
+        "slider_tariff_cost": "999",
         "slider_tariff_time": "/1 месяц",
         "slider_tariff_size": "5 тб",
-        "rates_tariff_point_one" : "img/rates_tick.png",
-        "rates_tariff_point_two" : "img/rates_tick.png",
-        "rates_tariff_point_three" : "img/rates_tick.png",
-        "rates_tariff_point_four" : "img/rates_tick.png",
-        "rates_tariff_point_five" : "img/rates_cross.png"
+        "rates_tariff_point_one" : "/img/rates_tick.png",
+        "rates_tariff_point_two" : "/img/rates_tick.png",
+        "rates_tariff_point_three" : "/img/rates_tick.png",
+        "rates_tariff_point_four" : "/img/rates_tick.png",
+        "rates_tariff_point_five" : "/img/rates_cross.png"
       },
       {
         "slider_tariff_title": "Продвинутый",
@@ -396,11 +396,11 @@
         "slider_tariff_cost": "1399",
         "slider_tariff_time": "/1 месяц",
         "slider_tariff_size": "10 тб",
-        "rates_tariff_point_one" : "img/rates_tick.png",
-        "rates_tariff_point_two" : "img/rates_tick.png",
-        "rates_tariff_point_three" : "img/rates_tick.png",
-        "rates_tariff_point_four" : "img/rates_tick.png",
-        "rates_tariff_point_five" : "img/rates_tick.png"
+        "rates_tariff_point_one" : "/img/rates_tick.png",
+        "rates_tariff_point_two" : "/img/rates_tick.png",
+        "rates_tariff_point_three" : "/img/rates_tick.png",
+        "rates_tariff_point_four" : "/img/rates_tick.png",
+        "rates_tariff_point_five" : "/img/rates_tick.png"
       }
     ]
   },

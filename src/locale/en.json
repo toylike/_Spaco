@@ -1,0 +1,463 @@
+{
+  "nav": {
+    "nav_logo": "/img/nav_logo.png",
+    "nav_button": "Mobile application",
+    "nav_button_path": "of_spaco.html",
+    "nav_registration": "Sign up",
+    "nav_entry": "Log in",
+    "nav_links": [
+      {
+        "nav_link": "About us",
+        "nav_path": "index.html"
+      },
+      {
+        "nav_link": "Tariffs",
+        "nav_path": "rates.html"
+      },
+      {
+        "nav_link": "Career",
+        "nav_path": "vacancy.html"
+      },
+      {
+        "nav_link": "Support",
+        "nav_path": "support.html"
+      }
+    ]
+  },
+
+  "banner" :{
+    "banner_title": "Spaco Cloud Storage",
+    "banner_h4": "Cosmic volume & superluminal speed",
+    "banner_text": "Spaco is a cross-platform service that gives you an opportunity to quickly access your files and share them securely with other users.",
+    "banner_button": "Try for free",
+    "banner_logo" : "/img/bg_logo-header2.png",
+    "banner_logo_ipad" : "/img/bg_logo_ipad.png",
+    "banner_logo_mobile" : "/img/bg_logo_mobile.png"
+  },
+
+  "article": {
+    "h1": "All the necessary files at hand",
+    "footer_button": "Try for free"
+  },
+
+  "cards": [
+    {
+      "src_img_card": "/img/icon_folder.svg",
+      "title_card": "Any data storage",
+      "text_card": "Documents, videos, presentations, archives, projects. We have no restrictions on the size or extension of the uploaded files."
+    },
+    {
+      "src_img_card": "/img/icon_screen.svg",
+      "title_card": "Access from all devices",
+      "text_card": "Your phone and computer storage will remain free as all your files will be stored on our servers."
+    },
+    {
+      "src_img_card": "/img/icon_safety.svg",
+      "title_card": "Data security",
+      "text_card": "We use 256-bit encryption and a built-in antivirus to keep you safe from hacks and malware."
+    },
+    {
+      "src_img_card": "/img/icon_arrow.svg",
+      "title_card": "Quick exchange",
+      "text_card": "No need to wait for the submission or give someone access to your folders. Just create a download link in a couple of clicks."
+    },
+    {
+      "src_img_card": "/img/icon_calendar.svg",
+      "title_card": "Conversion history",
+      "text_card": "We conduct regular backups. Any deleted or changed file can be restored within 30 days."
+    },
+    {
+      "src_img_card": "/img/icon_operator.svg",
+      "title_card": "Timely support",
+      "text_card": "If you encounter any difficulties, send a request to our technical support, and an operator will contact you within 15 minutes."
+    }
+  ],
+
+  "footer": {
+    "footer_img" : "/img/footer_logo.png",
+    "footer_text" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia",
+    "cols": [
+      {
+        "col_title": "Service" ,
+        "col_link_path": "#",
+        "col_links": [
+          {
+            "col_link": "Mobile application",
+            "col_link_path": "of_spaco.html"
+          },
+          {
+            "col_link": "Tariff plans",
+            "col_link_path": "rates.html"
+          }
+        ]
+      },
+  
+      {
+        "col_title": "Company",
+        "col_link_path": "#",
+        "col_links": [
+          {
+            "col_link": "About us",
+            "col_link_path": "index.html"
+          },
+          {
+            "col_link": "Career",
+            "col_link_path": "vacancy.html"
+          }
+        ]
+      },
+  
+      {
+        "col_title": "Support",
+        "col_link_path": "support.html",
+        "col_links": [
+          {
+            "col_link": "Contact us",
+            "col_link_path": "#"
+          },
+          {
+            "col_link": "Terms & Conditions",
+            "col_link_path": "#"
+          },
+          {
+            "col_link": "Privacy Policy",
+            "col_link_path": "#"
+          }
+        ]
+      },
+  
+      {
+        "col_title": "Language",
+        "col_link_path": "#",
+        "col_links": [
+          {
+            "col_link": "Русский",
+            "col_link_path": "#"
+          },
+          {
+            "col_link": "English",
+            "col_link_path": "#"
+          }
+        ]
+      }
+    ]
+  },
+
+  "of_banner" :{
+    "banner_title": "Spaco offline apps",
+    "banner_text": "Work with files offline and they will be uploaded to the storage automatically as soon as Internet access appears.",
+    "of_cards_title": "How it works",
+    "of_cards": [
+      {
+        "of_img_card": "/img/of_card_app.svg",
+        "of_title_card": "Upload file into the app"
+      },
+      {
+        "of_img_card": "/img/of_card_wifi.svg",
+        "of_title_card": "Get Internet access"
+      },
+      {
+        "of_img_card": "/img/of_card_cloud.svg",
+        "of_title_card": "The file will go into the storage automatically"
+      }
+    ]
+  },
+
+  "vacancy_banner": {
+    "banner_title": "Our team is growing and we are looking for new employees!",
+    "banner_text": "This is a remote job, so we don’t care where you are located. The main things are skills and a desire to work with us!",
+    "vacancy_cards_title": "Right now, we are looking for the following specialists:",
+    "join_title": "Are you willing to become part of Spaco?",
+    "join_text": "Contact us and introduce yourself by attaching your CV and portfolio.",
+    "join_button": "Contact us",
+    "vacancy_cards": [
+      {
+        "vacancy_title_card": "Junior Java Developer",
+        "vacancy_text": [
+          {
+            "text": "Working with Java for 6 months or more."
+          },
+          {
+            "text": "Experience with the Swing library or similar."
+          },
+          {
+            "text": "Knowledge of English."
+          },
+          {
+            "text": "Responsible attitude to the assigned tasks."
+          },
+          {
+            "text": "Willingness to strictly adhere to deadlines."
+          }
+        ]
+      },
+  
+      {
+        "vacancy_title_card": "Database administrator",
+        "vacancy_text": [
+          {
+            "text": "Relevant degree."
+          },
+          {
+            "text": "Knowledge of Java and C++ programming languages"
+          },
+          {
+            "text": "Experience with Oracle and SQL DBMS at least 1 year."
+          },
+          {
+            "text": "Knowledge of English."
+          },
+          {
+            "text": "Responsible attitude to the assigned tasks."
+          }
+        ]
+      },
+  
+      {
+        "vacancy_title_card": "Front End Developer (Middle)",
+        "vacancy_text": [
+          {
+            "text": "Relevant degree"
+          },
+          {
+            "text": "Strong knowledge of HTML, CSS, SASS."
+          },
+          {
+            "text": "Knowledge of English (at least Intermediate)."
+          },
+          {
+            "text": "Basic Nuxt and Git skills."
+          },{
+            "text": "Creative approach to work, a desire to influence the result."
+          },
+          {
+            "text": "Willingness to strictly adhere to deadlines."
+          }
+        ]
+      },
+  
+      {
+        "vacancy_title_card": "Call Center Manager",
+        "vacancy_text": [
+          {
+            "text": "Experience in B2B sales."
+          },
+          {
+            "text": "Competent speech and writing."
+          },
+          {
+            "text": "Knowledge of the rules of business correspondence."
+          },
+          {
+            "text": "Experience in work and reporting in CRM systems."
+          },
+          {
+            "text": "Ready to work on a 2/2 schedule."
+          }
+        ]
+      }
+    ]
+  },
+
+  "support": {
+    "support_banner_title": "If you have any questions, requests or suggestions on the way our service works, contact us. We are always in touch!",
+    "support_aside_title" : "To contact us, call the hotline or leave a request so that we can call you back.",
+    "support_aside_text" : "Hotline telephone number:",
+    "support_aside_number" : "8 800 937 99 92",
+    "support_aside_button" : "Leave a request",
+    "support_cards": [
+      {
+        "img": "/img/support_phone.svg",
+        "text": "Our technical support is available 24/7 and we are ready to answer you at any time of the day no matter where you are."
+      },
+      {
+        "img": "/img/support_clock.svg",
+        "text": "Average response time of an operator is 10 minutes. You will get the information you need really quickly and without wasting time or nerves."
+      },
+      {
+        "img": "/img/support_lang.svg",
+        "text": "Consultations in Russian and English. You will be communicating with a native speaker, so there will be no misunderstanding."
+      }
+    ]
+  },
+
+  "rates": {
+    "rates_title": "Detailed options description",
+    "rates_aside_title": "Check out Spaco possibilities and get free temporary access",
+    "rates_aside_button": "Try for free",
+    "points_title": "Our tariffs",
+    "points_text": "(1 month subscription)",
+    "rates_tariff_button": "Buy",
+    "rates_popup": "When the trial period expires, you will be transferred to the Starter tariff.",
+    "rates_cards": [
+      {
+        "src_img_card": "/img/rates_icon-cylinder.svg",
+        "title_card": "Your space",
+        "text_card": "You can use it to store any kind of files without limitations on their size, storage duration or the amount of downloads."
+      },
+      {
+        "src_img_card": "/img/rates_icon-shield.svg",
+        "title_card": "Scanning for viruses",
+        "text_card": "The antivirus checks all the uploading files for viruses to keep you and the person you’re sharing the file link with safe."
+      },
+      {
+        "src_img_card": "/img/re.svg",
+        "title_card": "Backup",
+        "text_card": "We back up your files to stay on the safe side and make sure you don’t lose access to them."
+      },
+      {
+        "src_img_card": "/img/rates_icon-arrow.svg",
+        "title_card": "Data restoration",
+        "text_card": "If you delete a necessary file by mistake and 30 days after deletion haven’t passed, we will restore it."
+      },
+      {
+        "src_img_card": "/img/rates_icon-man.svg",
+        "title_card": "Personal manager",
+        "text_card": "They will stay in touch whenever you need them, give advise, teach you how to work with the service and help quickly resolve any issue that may arise."
+      },
+      {
+        "src_img_card": "/img/rates_icon-case.svg",
+        "title_card": "Business tools",
+        "text_card": "A set of tools for team work that includes options to process files together with other users and define access rights."
+      }
+    ],
+    "slider_points": [
+      {
+        "point_text": "Disk space"
+      },
+      {
+        "point_text": "Scanning files for viruses"
+      },
+      {
+        "point_text": "Data backup"
+      },
+      {
+        "point_text": "Recovering deleted files"
+      },
+      {
+        "point_text": "Personal technical support"
+      },
+      {
+        "point_text": "Set of business tools"
+      }
+    ],
+    "slider_tariff": [
+      {
+        "slider_tariff_title": "Trial",
+        "slider_tariff_currency": "RUB",
+        "slider_tariff_cost": "1",
+        "slider_tariff_time": "/24 hours",
+        "slider_tariff_size": "1 TB",
+        "rates_tariff_point_one" : "/img/rates_tick.png",
+        "rates_tariff_point_two" : "/img/rates_cross.png",
+        "rates_tariff_point_three" : "/img/rates_cross.png",
+        "rates_tariff_point_four" : "/img/rates_cross.png",
+        "rates_tariff_point_five" : "/img/rates_cross.png"
+      },
+      {
+        "slider_tariff_title": "Starter",
+        "slider_tariff_currency": "RUB",
+        "slider_tariff_cost": "349",
+        "slider_tariff_time": "/1 month",
+        "slider_tariff_size": "1 TB",
+        "rates_tariff_point_one" : "/img/rates_tick.png",
+        "rates_tariff_point_two" : "/img/rates_tick.png",
+        "rates_tariff_point_three" : "/img/rates_cross.png",
+        "rates_tariff_point_four" : "/img/rates_cross.png",
+        "rates_tariff_point_five" : "/img/rates_cross.png"
+      },
+      {
+        "slider_tariff_title": "Standard",
+        "slider_tariff_currency": "RUB",
+        "slider_tariff_cost": "699",
+        "slider_tariff_time": "/1 month",
+        "slider_tariff_size": "2 TB",
+        "rates_tariff_point_one" : "/img/rates_tick.png",
+        "rates_tariff_point_two" : "/img/rates_tick.png",
+        "rates_tariff_point_three" : "/img/rates_tick.png",
+        "rates_tariff_point_four" : "/img/rates_cross.png",
+        "rates_tariff_point_five" : "/img/rates_cross.png"
+      },
+      {
+        "slider_tariff_title": "Optimal",
+        "slider_tariff_currency": "RUB",
+        "slider_tariff_cost": "999",
+        "slider_tariff_time": "/1 month",
+        "slider_tariff_size": "5 TB",
+        "rates_tariff_point_one" : "/img/rates_tick.png",
+        "rates_tariff_point_two" : "/img/rates_tick.png",
+        "rates_tariff_point_three" : "/img/rates_tick.png",
+        "rates_tariff_point_four" : "/img/rates_tick.png",
+        "rates_tariff_point_five" : "/img/rates_cross.png"
+      },
+      {
+        "slider_tariff_title": "Advanced",
+        "slider_tariff_currency": "RUB",
+        "slider_tariff_cost": "1399",
+        "slider_tariff_time": "/1 month",
+        "slider_tariff_size": "10 TB",
+        "rates_tariff_point_one" : "/img/rates_tick.png",
+        "rates_tariff_point_two" : "/img/rates_tick.png",
+        "rates_tariff_point_three" : "/img/rates_tick.png",
+        "rates_tariff_point_four" : "/img/rates_tick.png",
+        "rates_tariff_point_five" : "/img/rates_tick.png"
+      }
+    ]
+  },
+  
+  "reviews": {
+		"title": "Feedback from our clients",
+		"slider1": [
+			{
+			"slider1_title": "Alexander Ryansky",
+			"slider1_text": "Spaco means space in Esperanto. Indeed, the service is simply cosmic! I've been using it for several months now and I'm completely satisfied. Thank you!"
+		},
+			{
+			"slider1_title": "Larisa Minina, “Line-Project LLC”",
+			"slider1_text": "Our whole department switched to Spaco. It's very convenient to exchange files, especially when there are several dozen people in the team, and you also attract freelancers. And most importantly, you don't have to spend a lot of time downloading and uploading!"
+		},
+			{
+			"slider1_title": "Anna Kurenaya",
+			"slider1_text": "I have an Acer Nitro 5 laptop, a Xiaomi Redmi 9C smartphone, plus a hand-assembled computer in the office – it works stably everywhere, synchronization is fast, no problems."
+		},
+			{
+			"slider1_title": "Vitaly Nikitin",
+			"slider1_text": "The speed is really cosmic! Even on my old laptop! I've finally found the perfect file sharing service for myself!"
+		},
+			{
+			"slider1_title": "Timur Larin",
+			"slider1_text": "This is my first time using cloud storage, except for Google Drive. How convenient it really is!"
+		},
+			{
+			"slider1_title": "Nikolay Slavsky",
+			"slider1_text": "I've been using it for three months, the problem arose once, and that was my fault – I kept about a dozen copies of the file at different stages of editing and deleted the necessary one. I contacted technical support, they answered in 10 minutes, restored the file in 2 hours! Thank you very much!"
+		},
+			{
+			"slider1_title": "Alexandra Egorova",
+			"slider1_text": "The service is cosmic! I'm using the free plan for now, but when it ends, I really won't mind the money to pay! Very comfortable!"
+		},
+			{
+			"slider1_title": "Mikhail Kalugin",
+			"slider1_text": "Finally, REALLY fast uploads to cloud storage! Thank you!"
+		},
+			{
+			"slider1_title": "Andrey Serov, “CreoStudio”",
+			"slider1_text": "Works great on all my gadgets! Moreover, both on the latest and on old models. Colleagues installed it, too, and had no complaints. All in all, a great app for business tasks! Looking forward to seeing it on iPhone devices!"
+		},
+			{
+			"slider1_title": "Leonid Yudin, creative director “Lama-Pro”",
+			"slider1_text": "We’ve tested several services (won’t give away the names not to encourage adverse publicity). As a result, we chose Spaco, it’s the most convenient and quick. We’ve been using it for two months and it’s all good!"
+		},
+			{
+			"slider1_title": "Anna Sokolova, marketing manager at LLC “Ariadna-Service”",
+			"slider1_text": "I gave my colleague access to my account and, of course, he deleted a necessary file… we noticed it in like a month, right before project handover! The stress was ferocious – we were afraid it’s deleted for good. But! They found and restored it within several hours! I’m speechless, thanks to Spaco technical support and personally to Alexei!"
+		},
+			{
+			"slider1_title": "Alina Novikova",
+			"slider1_text": "I love Spaco! In addition to the service itself, technical support is always a good chat, it’s a very positive team. Probably, it’s  like at one of the Ford factories – they get paid not for the working time, but for the time of rest, so they are interested in quickly processing applications and helping customers!"
+		}
+	]
+	}
+   
+}
+
