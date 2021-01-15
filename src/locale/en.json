@@ -8,7 +8,7 @@
     "nav_links": [
       {
         "nav_link": "About us",
-        "nav_path": "index.html"
+        "nav_path": "about.html"
       },
       {
         "nav_link": "Tariffs",
@@ -98,7 +98,7 @@
         "col_links": [
           {
             "col_link": "About us",
-            "col_link_path": "index.html"
+            "col_link_path": "about.html"
           },
           {
             "col_link": "Career",
@@ -457,7 +457,29 @@
 			"slider1_text": "I love Spaco! In addition to the service itself, technical support is always a good chat, it’s a very positive team. Probably, it’s  like at one of the Ford factories – they get paid not for the working time, but for the time of rest, so they are interested in quickly processing applications and helping customers!"
 		}
 	]
-	}
-   
+	},
+
+  "about_banner": {
+    "about_banner_title": "Safe space for your data",
+    "about_banner_text": "Our mission is to grant you easy access to all the necessary files as well as to give you an opportunity to share them with other users quickly, easily and safely. Spaco helps create a working environment and optimize routine business processes.",
+    "about_banner_logo" : "/img/bg_logo_about.png",
+    "about_banner_logo_mobile" : "/img/bg_logo_about_mobile.png"
+  },
+
+  "history": {
+    "history_img": "/img/icon_book.svg",
+    "history_title": "Our history",
+    "history_text": "Spaco company was founded out of our personal need for a nice cloud service where you could upload files of any size, store them for as long as you need and recover data in case something is deleted by mistake.",
+    "history_text2": "Having created such a product for ourselves, we systemized and synchronized our work to the extent that we could no longer keep it away from the whole world. One can get to strategic tasks once they are done with the tactic ones. Then they can bring their business to a brand new level."
+  },
+  "team": {
+    "team_img": "/img/icon_team.svg",
+    "team_title": "About our team",
+    "team_text": "Today the Spaco team consists of 18 people. Together, we monitor the changing market needs and keep our finger on the pulse of technology. This allows us to constantly improve our service and open up new business opportunities.",
+    "team_text2": "Our in-house service has made remote work possible for all of our employees. Thanks to this, we not only preserved quality, but also were able to accept talented programmers from other countries into the team.",
+    "team_text3": "Instead of sitting around from bell to bell, we choose intensive work in comfortable conditions. If this approach is close to you, you can become part of our team.",
+    "team_button": "Join our team",
+    "team_button_path": "support.html"
+  }
 }
 

@@ -1,0 +1,51 @@
+- const aboutBanner = LANG.about_banner;
+- const team = LANG.team;
+- const history = LANG.history;
+
+main
+    section.banner.banner__about
+        img.banner_logo(src=aboutBanner.about_banner_logo, alt="Spaco logo")
+        img.banner_logo_ipad(src=aboutBanner.about_banner_logo, alt="Spaco logo")
+        img.banner_logo_mobile(src=aboutBanner.about_banner_logo_mobile, alt="Spaco logo")
+        div.box
+            div.banner_content
+                div.banner_title
+                    h1= aboutBanner.about_banner_title
+                div.banner_text
+                    p= aboutBanner.about_banner_text
+    section.team
+        div.container
+            div.team__block
+                img.team__img(src=history.history_img, alt="Spaco book")
+                div
+                   h2.team__title= history.history_title
+                   p.team__text= history.history_text
+                   br
+                   p.team__text= history.history_text2
+            div.team__block-md
+                h2.team__title= history.history_title
+                img.team__img(src=history.history_img, alt="Spaco book")
+                p.team__text= history.history_text
+                br
+                p.team__text= history.history_text2
+            div.team__block
+                div.team__content
+                    h2.team__title= team.team_title
+                    p.team__text= team.team_text
+                    br
+                    p.team__text= team.team_text2
+                    br
+                    p.team__text= team.team_text3
+                img.team__img(src=team.team_img, alt="Spaco team")
+            div.team__block-md
+                h2.team__title= team.team_title
+                img.team__img(src=team.team_img, alt="Spaco team")
+                p.team__text= team.team_text
+                br
+                p.team__text= team.team_text2
+                br
+                p.team__text= team.team_text3
+    div.container
+        div.team__btn-block
+            a(href=team.team_button_path).button_template_two= team.team_button
+

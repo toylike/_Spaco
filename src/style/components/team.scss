@@ -1,0 +1,112 @@
+.team {
+  background-color: $mainColor;
+  padding-top: 113px;
+
+  @media screen and (max-width: $breakpoint-md) {
+    padding-top: 70px;
+  }
+
+  &__block {
+    display: flex;
+    margin-bottom: 100px;
+
+    @media screen and (max-width: $breakpoint-md) {
+      display: none;
+    }
+  }
+
+  &__block-md {
+    display: none;
+    margin-bottom: 35px;
+
+    @media screen and (max-width: $breakpoint-md) {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  &__img {
+    display: inline-block;
+    margin-right: 183px;
+
+    @media screen and (max-width: $breakpoint-md) {
+      height: 158px;
+      margin-right: 0;
+      width: auto;
+      display: inline;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__content {
+    margin-right: 198px;
+
+    &+.team__img {
+      margin-right: 0;
+    }
+  }
+
+  &__title {
+    font-family: $main-font-title;
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 1;
+    color: $secondColor;
+    padding-bottom: 50px;
+
+    @media screen and (max-width: $breakpoint-m) {
+      font-size: 60px;
+    }
+
+    @media screen and (max-width: $breakpoint-s) {
+      min-height: 1px;
+      font-size: 35px;
+      line-height: 1;
+      text-align: center;
+    }
+  }
+
+  &__text {
+    font-family: $main-font-family;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: $secondColor;
+
+    @media screen and (max-width: $breakpoint-md) {
+      text-align: left;
+    }
+  }
+
+  &__btn {
+    display: inline-block;
+    position: relative;
+    padding: 26px 10px;
+    min-width: 272px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #041c63;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    background: $mainColor;
+    text-align: center;
+    font-family: $main-font-family;
+    transition: .4s;
+  }
+
+  &__btn-block {
+    text-align: center;
+    color: #041c63;
+    margin-bottom: 195px;
+
+    @media screen and (max-width: $breakpoint-md) {
+      margin-bottom: 70px;
+    }
+  }
+}
+
+.banner__about {
+  min-height: 944px;
+}
